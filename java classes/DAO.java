@@ -112,9 +112,9 @@ public class DAO
         writer.writeNext(header);
         
         // Read as a dataframe the CSVs containing the link to the data of the matches in JSON and more info
-        DataFrame dfH2K = DataFrame.readCsv("./csv/H2K.csv");
-        DataFrame dfG2 = DataFrame.readCsv("./csv/G2.csv");
-        DataFrame dfUOL = DataFrame.readCsv("./csv/UOL.csv");
+        DataFrame dfH2K = DataFrame.readCsv("../csv/H2K.csv");
+        DataFrame dfG2 = DataFrame.readCsv("../csv/G2.csv");
+        DataFrame dfUOL = DataFrame.readCsv("../csv/UOL.csv");
         
         // Getting all the links to the data into a collection we will iterate later
         List<String> gameLinksH2K = dfH2K.col("Match data");
