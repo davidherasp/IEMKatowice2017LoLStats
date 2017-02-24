@@ -1,4 +1,4 @@
-# IEMKatowice2017LoLStats
+# IEM Katowice 2017 LoL Stats
 Java application to convert game stats into CSV and then read that stats from software like Spotfire or Tableau and visualize the data.
 
 ## What you will find
@@ -26,7 +26,12 @@ The second one is data that is collected from the URLs stored in the CSV files t
 
 ## What do I need?
 You will need the Java classes, the CSV files and the following libraries:
-* [Orianna](https://github.com/meraki-analytics/Orianna)
+* [Orianna API](https://github.com/meraki-analytics/Orianna)
 * [Open CSV](http://opencsv.sourceforge.net/)
 * [Javax JSON](https://repo1.maven.org/maven2/org/glassfish/javax.json/1.0.4/)
 * [Joinery](https://github.com/cardillo/joinery)
+
+## Thanks to
+* Thanks to the guys at [elometer.info](http://elometer.info/) ([Twitter](https://twitter.com/elometer))! They helped me to get started and answered very fast to my questions. 10/10 persons. Visit their page to see the ELO ranking of the EU LCS, EU CS, SLO and more leagues!
+* [Gamepedia](http://lol.gamepedia.com/League_of_Legends_Wiki) - Info about the players and teams nationalities.
+* [OP.GG](https://euw.op.gg/ranking/ladder/) - Some of the summoner names of the players
