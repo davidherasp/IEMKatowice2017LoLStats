@@ -1,6 +1,8 @@
 # IEM Katowice 2017 LoL Stats
 Java application to convert game stats into CSV and then read that stats from software like Spotfire or Tableau and visualize the data.
 
+[![Video of the demo](http://img.youtube.com/vi/BSF6WKHXRO4/0.jpg)](https://www.youtube.com/watch?v=BSF6WKHXRO4)
+
 ## What you will find
 You will find all the classes needed to generate CSV files with the following data:
 * Player name
